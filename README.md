@@ -1,2 +1,0 @@
-# ra2581392623047
-Repositório do aluno KAIQUE HENRIQUE SILVA PINTO.

@@ -1,11 +1,433 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Portfólio - KAIQUE HENRIQUE SILVA PINTO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaique Henrique Silva Pinto | Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Bem vindo ao Portfólio de KAIQUE HENRIQUE SILVA PINTO</h1>
+    <div class="data-mesh-bg"></div>
+
+    <nav class="glass-nav">
+        <a href="#home" class="logo">KAIQUE<span>_PINTO</span></a>
+        <div class="nav-links">
+            <a href="#curriculo">Currículo</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#habilidades">Skills</a>
+            <a href="#trabalhos">Destaques</a>
+            <a href="#eventos">Eventos</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <section id="home" class="hero-section reveal">
+            <div class="hero-content">
+                <p class="mono-accent">// HELLO_WORLD</p>
+                <h1 class="glitch-text" data-text="KAIQUE HENRIQUE SILVA PINTO">KAIQUE HENRIQUE SILVA PINTO</h1>
+                <h2 class="role">Software Developer </h2>
+                
+                <p class="hero-description">
+                    Desenvolvedor de software, criando aplicações web, APIs e soluções orientadas a dados com foco em qualidade, organização e experiência do usuário. 
+                    Estudante de Desenvolvimento de Software Multiplataforma (DSM) na FATEC Jacareí
+                </p>
+                <p class="hero-description">
+                    Transformandoproblemas reais em produtos digitais eficientes, atuando desde a modelagem de dados e desenvolvimento do back-end até a construção de interfaces e integrações. Busco evoluir continuamente em arquitetura de software, cloud e desenvolvimento full stack.
+                </p>
+                
+                <a href="#projetos" class="btn-primary">EXPLORAR PROJETOS</a>
+            </div>
+
+            <div class="profile-photo-frame">
+                <img src="images/perfil.jpg" alt="Foto de Kaique Henrique Silva Pinto" class="profile-photo">
+                <span class="profile-photo-hint">ADICIONE SUA FOTO AQUI</span>
+            </div>
+        </section>
+
+
+<section id="curriculo" class="reveal">
+            <div class="title-btn-wrapper" style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 4rem;">
+                <h2 class="section-title" style="margin-bottom: 0;">01. <span>CURRÍCULO_</span></h2>
+                
+                <a href="assets/curriculo.pdf" target="_blank" class="btn-pdf-download">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="12" y1="18" x2="12" y2="12"></line>
+                        <polyline points="9 15 12 18 15 15"></polyline>
+                    </svg>
+                    <span>CURRÍCULO.PDF</span>
+                </a>
+            </div>
+
+            <h3 class="mono-accent" style="margin-bottom: 2rem; font-size: 1.2rem; letter-spacing: 2px;">> FORMAÇÃO_ACADÊMICA</h3>
+            <div class="timeline" style="margin-bottom: 4rem;">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h3>Desenvolvimento de Software Multiplataforma (Tecnólogo)</h3>
+                    <h4>FATEC Jacareí | Previsão: Dez/2027</h4>
+                    <p>Foco em engenharia de software, arquitetura de sistemas, metodologias ágeis (Scrum) e desenvolvimento orientado à resolução de problemas reais.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h3>Desenvolvimento de Sistemas (Técnico)</h3>
+                    <h4>ETEC São José dos Campos | Concluído: Jun/2025</h4>
+                    <p>Foco em desenvolvimento de sistemas, lógica de programação e arquitetura de aplicações escaláveis e seguras.</p>
+                </div>
+            </div>
+
+
+            <h3 class="mono-accent" style="margin-bottom: 2rem; font-size: 1.2rem; letter-spacing: 2px;">> EXPERIÊNCIA_PROFISSIONAL</h3>
+            <div class="timeline" style="margin-bottom: 4rem;">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h3>Estágio em desenvolvimento de software</h3>
+                    <h4>Embraer | O momento</h4>
+                    <p>Desenvolvendo aplicações para uso interno e criando soluções inovadoras.</p>
+                    <div class="tech-stack" style="margin-top: 1rem;">
+                        <span>Javascript</span>
+                        <span>Typescript</span>
+                        <span>Python</span>
+
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h3>Estágio em Engenharia de Dados</h3>
+                    <h4>Dataside | Ago/2025 - Ago/2026</h4>
+                    <p>Atuação em projetos desafiadores envolvendo processamento de grandes volumes de dados provenientes de múltiplas fontes. Trabalho focado em escalabilidade, performance e geração de valor utilizando tecnologias de ponta do mercado de dados.</p>
+                    <div class="tech-stack" style="margin-top: 1rem;">
+                        <span>Python</span>
+                        <span>PySpark</span>
+                        <span>Databricks</span>
+                        <span>SQL Server</span>
+                        <span>Azure (ADF, DevOps, Key Vault, Data lake)</span>
+                        <span>Airflow / Cosmos</span>
+                        <span>dbt</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h3>Técnico de Informática</h3>
+                    <h4>Multicard Identificações | Nov/2024 – Fev/2025</h4>
+                    <p>Suporte técnico remoto, resolução de problemas e acompanhamento de chamados. Contato direto com sistemas integrados e instalações, proporcionando forte vivência prática em troubleshooting e resolução ágil de incidentes.</p>
+                </div>
+
+            </div>
+
+<h3 class="mono-accent" style="margin-bottom: 2rem; font-size: 1.2rem; letter-spacing: 2px;">> CERTIFICAÇÕES_OFICIAIS</h3>
+            <div class="cert-image-grid" style="margin-bottom: 4rem;">
+                
+                <div class="cert-image-card">
+                    <div class="cert-img-wrapper">
+                        <img src="images/aws.png" alt="Badge AWS Certified Cloud Practitioner" class="cert-img">
+                    </div>
+                    <div class="cert-content">
+                        <h3>AWS Certified Cloud Practitioner</h3>
+                        <p class="cert-issuer">Amazon Web Services (AWS) | 2026</p>
+                    </div>
+                </div>
+
+                <div class="cert-image-card">
+                    <div class="cert-img-wrapper">
+                        <img src="images/databricks.png" alt="Badge Databricks Fundamentals" class="cert-img">
+                    </div>
+                    <div class="cert-content">
+                        <h3>Databricks Fundamentals</h3>
+                        <p class="cert-issuer">Academy Accreditation | 2025</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="mono-accent" style="margin-bottom: 2rem; font-size: 1.2rem; letter-spacing: 2px;">> CURSOS_COMPLEMENTARES</h3>
+            <ul class="skill-list" style="margin-bottom: 4rem;">
+                <li><strong>Cloud Practitioner Essentials</strong> — AWS Skill Builder (2025)</li>
+                <li><strong>Banco de Dados</strong> — Fundação Bradesco (2025)</li>
+                <li><strong>Python 3</strong> — Curso em Vídeo (2022)</li>
+            </ul>
+
+            <h3 class="mono-accent" style="margin-bottom: 2rem; font-size: 1.2rem; letter-spacing: 2px;">> IDIOMAS</h3>
+            <ul class="skill-list" style="margin-bottom: 4rem;">
+                <li><strong>Português:</strong> Nativo</li>
+                <li><strong>Inglês:</strong> Básico (A2)</li>
+            </ul>
+        </section>
+
+        <section id="projetos" class="reveal">
+            <h2 class="section-title">02. <span>PROJETOS_E_CASES_</span></h2>
+            
+            <div class="project-grid" style="align-items: start;">
+
+                <article class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/api-1-semestre.png" alt="Projeto API 1º Semestre" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Projeto API 1º Semestre</h3>
+                        
+                        <p class="solution" style="margin-bottom: 0.8rem;"><strong>Contextualização:</strong> O comércio internacional desempenha um papel fundamental no desenvolvimento econômico. Entretanto, embora esses dados sejam públicos, sua consulta e interpretação podem ser complexas devido ao grande volume de informações.</p>
+                        <p class="solution" style="margin-bottom: 0.8rem;"><strong>Objetivo:</strong> Desenvolver uma ferramenta de consulta e análise de dados de importação e exportação de São Paulo, permitindo pesquisas de forma intuitiva para democratizar o acesso aos dados públicos.</p>
+                        
+                        <div class="tech-stack">
+                            <span>HTML & CSS</span><span>Python</span><span>SQL</span><span>Google Colab</span><span>Figma</span><span>Git / GitHub</span>
+                        </div>
+                        
+                        <p class="solution" style="margin-bottom: 0.8rem;"><strong>Metodologia:</strong> Levantamento, higienização e tratamento de dados públicos, garantindo organização e padronização para análise posterior.</p>
+                        <p class="solution" style="margin-bottom: 0.8rem;"><strong>Resultados:</strong> Ferramenta que permite análises comparativas eficientes, reduzindo barreiras técnicas e auxiliando na obtenção de informações estratégicas.</p>
+                        
+                        <p class="solution" style="margin-bottom: 0.8rem; border-left: 2px solid var(--accent-orange); padding-left: 10px;"><strong>Minha atuação:</strong> Atuei diretamente na modelagem e tratamento dos dados. Adicionalmente, colaborei na criação de <em>dashboards</em> interativos voltados à geração de <em>insights</em> e valor estratégico para o negócio.</p>
+                        <p class="solution" style="margin-bottom: 1.5rem; border-left: 2px solid var(--accent-cyan); padding-left: 10px;"><strong>Soft Skills Desenvolvidas:</strong> Capacidade de síntese analítica, trabalho em equipe sob cronograma e empatia focada na experiência do usuário para democratização da informação.</p>
+                        
+                        <a href="https://github.com/Templasan/DSM---Projeto-de-API-1-Semestre" target="_blank" class="btn-secondary">VER REPOSITÓRIO</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/api-2-semestre.png" alt="Projeto API 2º Semestre" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Projeto API 2º Semestre</h3>
+                        
+                        <p class="solution" style="margin-bottom: 0.8rem;"><strong>Contextualização:</strong> A empresa parceira Newe Log enfrenta desafios operacionais devido à utilização de múltiplas ferramentas para gerenciar processos. Essa descentralização gera retrabalho e dificulta a obtenção de uma visão integrada.</p>
+                        <p class="solution" style="margin-bottom: 0.8rem;"><strong>Objetivo:</strong> Desenvolver uma plataforma web capaz de centralizar os processos da empresa em um único ambiente digital, fornecendo suporte à tomada de decisão por meio de indicadores gerenciais.</p>
+                        
+                        <div class="tech-stack">
+                            <span>Next.js</span><span>React</span><span>Node.js</span><span>JavaScript</span><span>MySQL</span><span>HTML & CSS</span><span>Jira</span>
+                        </div>
+                        
+                        <p class="solution" style="margin-bottom: 0.8rem;"><strong>Metodologia:</strong> Análise e mapeamento profundo dos fluxos de trabalho da empresa para propor uma plataforma web centralizada para gerenciar o armazenamento corporativo.</p>
+                        <p class="solution" style="margin-bottom: 0.8rem;"><strong>Resultados:</strong> Redução significativa do retrabalho e erros sistêmicos. A centralização proporcionou uma visão consolidada dos dados nas operações diárias.</p>
+                        
+                        <p class="solution" style="margin-bottom: 0.8rem; border-left: 2px solid var(--accent-orange); padding-left: 10px;"><strong>Minha atuação:</strong> Atuei desde a prototipação de interfaces de alta fidelidade (UI/UX) utilizando Figma, até o consumo de dados analíticos no <em>front-end</em>. Fui o responsável pelo desenvolvimento da tela principal de <em>insights</em>.</p>
+                        <p class="solution" style="margin-bottom: 1.5rem; border-left: 2px solid var(--accent-cyan); padding-left: 10px;"><strong>Soft Skills Desenvolvidas:</strong> Visão de negócio (entendimento profundo das dores da Newe Log), criatividade na resolução de problemas de usabilidade e comunicação assertiva com <em>stakeholders</em>.</p>
+                        
+                        <a href="https://github.com/CodexDSM/CodeX" target="_blank" class="btn-secondary">VER REPOSITÓRIO</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/api-3-semestre.png" alt="Projeto API 3º Semestre" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Projeto API 3º Semestre</h3>
+                        
+                        <p class="solution" style="margin-bottom: 0.8rem;"><strong>Contextualização:</strong> A GSW Software enfrenta desafios no gerenciamento de horas trabalhadas em projetos. O sistema atual de apontamento apresenta limitações técnicas, como lentidão e falhas de integração.</p>
+                        <p class="solution" style="margin-bottom: 0.8rem;"><strong>Objetivo:</strong> Desenvolver uma aplicação web robusta capaz de centralizar o controle de horas, fornecendo análises de produtividade para embasar decisões estratégicas baseadas em dados (<em>Data-Driven</em>).</p>
+                        
+                        <div class="tech-stack">
+                            <span>Spring Boot</span><span>React</span><span>TypeScript</span><span>Docker</span><span>MySQL</span>
+                        </div>
+                        
+                        <p class="solution" style="margin-bottom: 0.8rem;"><strong>Metodologia:</strong> Criação de uma arquitetura orientada a microsserviços (APIs RESTful e interface SPA), substituindo controles descentralizados por um modelo integrado.</p>
+                        <p class="solution" style="margin-bottom: 0.8rem;"><strong>Resultados:</strong> Maior transparência sobre a produtividade interna, com geração de relatórios que permitem identificar gargalos e monitorar desvios de cronograma.</p>
+                        
+                        <p class="solution" style="margin-bottom: 1.5rem; border-left: 2px solid var(--accent-orange); padding-left: 10px;">
+                            <strong>Minha atuação:</strong> Responsável pela modelagem relacional estruturada do banco de dados e desenvolvimento de interfaces. Implementei as camadas de segurança e controle de acesso aos <em>endpoints</em> utilizando RBAC (<em>Role-Based Access Control</em>).
+                        </p>
+                        
+<div class="solution" style="margin-bottom: 2rem; border-left: 2px solid var(--accent-cyan); padding-left: 10px;">
+                            <strong style="display: block; margin-bottom: 0.8rem; color: var(--text-primary);">A Experiência e Soft Skills Aplicadas:</strong>
+                            
+                            <p style="margin-bottom: 0.8rem; color: var(--text-secondary); line-height: 1.7;">
+                                Durante o projeto, o <strong>Trabalho em Equipe</strong> foi fundamental. Tive participação ativa nas reuniões do time (<em>Daily</em>), garantindo o alinhamento constante sobre o progresso das tarefas, o planejamento das <em>Sprints</em> e a rápida comunicação de impedimentos técnicos. Em conjunto, exerci a <strong>Proatividade</strong> ao tomar a frente em tarefas desafiadoras que não tinha tanto conhecimento. mas buscando soluções para não atrasar as entregas do grupo.
+                            </p>
+                            
+                            <p style="margin-bottom: 0; color: var(--text-secondary); line-height: 1.7;">
+                                A <strong>Adaptabilidade</strong>  rápida curva de aprendizado para dominar a linguagem Java e a arquitetura do framework Spring Boot do zero, aplicando os novos conceitos em tempo real no desenvolvimento do projeto, e atuando tanto no frontend, quanto no backend. Por fim, a <strong>Resiliência</strong> foi essencial para lidar com conteúdos de alta complexidade e curtos prazos de entrega. Um exemplo prático foi o desafio de entender como o retorno (JSON) do <em>Keycloak</em> funcionava, lendo sua documentação e tentando entender suas saidas, a partir disso, aplicar as regras de controle de acesso (RBAC).
+                            </p>
+                        </div>
+                        
+                        <a href="https://github.com/fatec-api/java-the-hutt" target="_blank" class="btn-secondary">VER REPOSITÓRIO</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+            </div>
+        </section>
+
+        <section id="documentos" class="reveal">
+            <h2 class="section-title">02.5 <span>DOCUMENTOS_ACADÊMICOS_</span></h2>
+            
+            <div class="academic-card" style="background: var(--bg-surface); padding: 2.5rem; border-left: 4px solid var(--accent-orange); border-radius: 2px;">
+                <h3 style="margin-bottom: 1rem; font-size: 1.4rem; color: var(--text-primary); font-family: var(--font-display);">
+                    Documentação Técnica e Arquitetural (Projeto API 3º Semestre)
+                </h3>
+                
+                <p style="color: var(--text-secondary); margin-bottom: 1rem;">
+                    <strong>Resumo:</strong> Relatório técnico completo desenvolvido para a parceira acadêmica GSW Software. O documento abrange o levantamento de requisitos operacionais, a modelagem relacional estruturada, o design da arquitetura e a organização das sprints do sistema de gerenciamento e apontamento de horas.
+                </p>
+                
+                <div class="tech-stack" style="margin-bottom: 1.5rem;">
+                    <span>Engenharia de Requisitos</span>
+                    <span>Modelagem de Dados</span>
+                    <span>Arquitetura de Sistemas</span>
+                    <span>Documentação Técnica</span>
+                </div>
+                
+                <a href="https://docs.google.com/document/d/1Z_DbshfP_fMyZPNkN-YQ0DQifeGzecKMofmZY3EVt1E/edit?tab=t.0#heading=h.d75kqks9k7rb" target="_blank" class="text-link" style="color: var(--accent-cyan); text-decoration: none; font-family: var(--font-display); font-weight: 600; display: inline-block; margin-top: 1rem; letter-spacing: 1px;">
+                    ACESSAR DOCUMENTAÇÃO ORIGINAL &rarr;
+                </a>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades" class="reveal">
+            <h2 class="section-title">03. <span>HABILIDADES_</span></h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>[ HARD_SKILLS ]</h3>
+                    <ul class="skill-list">
+                        <li><strong>Modern Data Stack:</strong> dbt, Airflow, DuckDB</li>
+                        <li><strong>Linguagens:</strong> Python (PySpark, Pandas), SQL, JavaScript e Java</li>
+                        <li><strong>Azure Data:</strong> Databricks, ADF, Synapse, Purview</li>
+                        <li><strong>Infraestrutura:</strong> AWS, Docker, Git/CI-CD</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>[ SOFT_SKILLS ]</h3>
+                    <ul class="skill-list">
+                        <li><strong>Comunicação Estratégica:</strong> Clareza em reuniões e alinhamento ágil.</li>
+                        <li><strong>Resiliência e Foco:</strong> Capacidade de lidar com desafios complexos e rotinas intensas.</li>
+                        <li><strong>Trabalho em Equipe:</strong> Vivência com frameworks ágeis e colaboração contínua.</li>
+                        <li><strong>Inglês Técnico:</strong> Leitura e compreensão voltadas para documentações.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+<section id="trabalhos" class="reveal">
+            <h2 class="section-title">04. <span>PESSOAL_PROJETOS_DESTAQUES_</span></h2>
+            
+            <div class="featured-projects-container">
+                
+                <article class="featured-card">
+                    <div class="featured-img-wrapper">
+                        <img src="images/arquitetura.png" alt="Arquitetura do Pipeline de Criptomoedas" class="project-img">
+                    </div>
+                    
+                    <div class="featured-content">
+                        <h3>Pipeline Analítico de Criptomoedas</h3>
+                        
+                        <p><strong>Descrição:</strong> Pipeline de engenharia de dados de ponta a ponta projetado para ingestão, orquestração e processamento de dados do mercado de criptomoedas.</p>
+                        
+                        <p><strong>Problema Identificado:</strong> Necessidade de extração e transformação automatizada (ELT) de dados voláteis do mercado financeiro para possibilitar análises confiáveis e em tempo hábil.</p>
+                        
+                        <p><strong>Solução Desenvolvida:</strong> Construção de um ambiente totalmente conteinerizado utilizando Docker. A solução orquestra fluxos complexos com Apache Airflow e executa transformações analíticas integradas via dbt e DuckDB através da biblioteca Astronomer Cosmos.</p>
+                        
+                        <p><strong>Desafios Técnicos:</strong> Garantir o isolamento das dependências dentro dos containers, estabelecer a comunicação assíncrona entre o Airflow e o Core do dbt, e assegurar a idempotência em todas as execuções das DAGs.</p>
+                        
+                        <p><strong>Resultados Obtidos:</strong> Pipeline altamente resiliente, operando sob os princípios de 12-factor apps (com variáveis de ambiente e logs estruturados), pronto para ser escalado e feito o deploy em provedores Cloud.</p>
+                        
+                        <div class="tech-stack" style="margin: 2rem 0;">
+                            <span>Python</span><span>Docker</span><span>Apache Airflow</span><span>dbt</span><span>DuckDB</span><span>Cosmos</span>
+                        </div>
+                        
+                        <a href="https://github.com/kaiquehsp/pipeline_criptomoedas" target="_blank" class="btn-primary">VER REPOSITÓRIO GITHUB</a>
+                    </div>
+                </article>
+
+                <article class="featured-card">
+                    <div class="featured-img-wrapper">
+                        <img src="images/startup_unicornio.png" alt="Análise de Startups Unicórnio" class="project-img">
+                    </div>
+                    
+                    <div class="featured-content">
+                        <h3>Unicorn Startups EDA (Análise Exploratória)</h3>
+                        
+                        <p><strong>Descrição:</strong> Estudo analítico profundo (Exploratory Data Analysis) sobre a base global de startups unicórnio, focado em extrair insights de valor de mercado e distribuição geográfica.</p>
+                        
+                        <p><strong>Problema Identificado:</strong> Dados de mercado altamente fragmentados e não estruturados sobre startups avaliadas em mais de 1 bilhão de dólares, dificultando a visão macroeconômica de investimentos.</p>
+                        
+                        <p><strong>Solução Desenvolvida:</strong> Aplicação de bibliotecas de manipulação de dados em Python para higienização da base (tratamento de nulos, conversão de moedas e datas) e construção de visualizações de dados interativas.</p>
+                        
+                        <p><strong>Desafios Técnicos:</strong> Padronização de dados financeiros globais e criação de narrativas visuais claras que pudessem traduzir métricas complexas para áreas de negócio (Data Storytelling).</p>
+                        
+                        <p><strong>Resultados Obtidos:</strong> Mapeamento claro e estruturado do ecossistema de unicórnios globais, evidenciando setores de maior crescimento e facilitando o entendimento de tendências de mercado baseadas em dados.</p>
+                        
+                        <div class="tech-stack" style="margin: 2rem 0;">
+                            <span>Python</span><span>Pandas</span><span>Matplotlib / Seaborn</span><span>Jupyter</span>
+                        </div>
+                        
+                        <a href="https://github.com/kaiquehsp/startups-unicornio" target="_blank" class="btn-primary">VER REPOSITÓRIO GITHUB</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+        
+        <section id="eventos" class="reveal">
+            <h2 class="section-title">05. <span>EVENTOS_E_EXTRACURRICULARES_</span></h2>
+            
+            <p class="hero-description" style="margin-bottom: 3rem;">
+                A participação ativa em competições é essencial para testar a resiliência sob pressão, aprimorar a lógica algorítmica e evoluir a comunicação em dinâmicas de metodologias ágeis.
+            </p>
+
+            <ul class="events-list">
+                <li>
+                    <h3 style="color: var(--accent-orange); font-family: var(--font-display); font-size: 1.4rem; margin-bottom: 0.5rem;">
+                        Classificação para 2ª Fase — Hackathon ETEC
+                    </h3>
+                    <p style="margin-bottom: 1rem; color: var(--text-secondary);">
+                        <strong>Projeto:</strong> Desenvolvimento do <em>EtecClass</em>, um protótipo de aplicativo escalável voltado para a gestão acadêmica e de aulas para coordenadores em múltiplas unidades.
+                    </p>
+                    <p style="margin-bottom: 1.5rem; color: var(--text-secondary);">
+                        <strong>Atuação e Desafio:</strong> Responsável pelo desenvolvimento do CRUD e integração ponta a ponta entre o Backend e o Frontend. O foco principal foi garantir um fluxo de dados consistente, eficiente e em tempo real via chamadas de API, aplicando design centrado no usuário e metodologias de desenvolvimento ágil.
+                    </p>
+                    <div class="tech-stack">
+                        <span>React Native (Expo)</span>
+                        <span>API REST</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+                </li>
+
+                <li>
+                    <h3 style="color: var(--accent-orange); font-family: var(--font-display); font-size: 1.4rem; margin-bottom: 0.5rem;">
+                        Maratona de Programação (2 Edições)
+                    </h3>
+                    <p style="margin-bottom: 0.5rem; color: var(--text-secondary);">
+                        <strong>Instituição:</strong> FATEC São José dos Campos
+                    </p>
+                    <p style="color: var(--text-secondary);">
+                        <strong>Resumo:</strong> Participação em duas edições de competições internas focadas em desafios algorítmicos. A dinâmica exige forte base em estrutura de dados, matemática computacional, lógica avançada e otimização de tempo de execução de código em um ambiente de alta pressão e tempo estrito.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+<section id="contato" class="reveal">
+            <h2 class="section-title">06. <span>INICIAR_CONEXÃO_</span></h2>
+            <div class="contact-wrapper">
+                <p>Buscando colaborar em arquiteturas de dados de alto impacto ou trocar ideias sobre o ecossistema Cloud.</p>
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/kaiquehenrique/" target="_blank" class="contact-btn">LinkedIn</a>
+                    <a href="https://github.com/kaiquehsp" target="_blank" class="contact-btn">GitHub</a>
+                    
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kaiquehsp5@gmail.com" target="_blank" class="contact-btn">Email</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kaique Henrique Silva Pinto.</p>
+    </footer>
+
+    <div id="image-modal" class="modal-overlay">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modal-img" src="" alt="Imagem Expandida">
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
