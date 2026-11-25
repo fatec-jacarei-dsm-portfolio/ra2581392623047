@@ -5,8 +5,8 @@
   --text-secondary: #949499;
   --accent-cyan: #00e5ff;
   --accent-orange: #ff9900;
-  --font-display: "Chakra Petch", sans-serif;
-  --font-body: "Outfit", sans-serif;
+  --font-display: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -177,8 +177,7 @@ section {
   z-index: 1;
 }
 
-.profile-photo-label,
-.profile-photo-hint {
+.profile-photo-label {
   position: relative;
   z-index: 0;
   font-family: var(--font-display);
@@ -194,11 +193,6 @@ section {
   font-size: 0.7rem;
 }
 
-.profile-photo-hint {
-  max-width: 150px;
-  color: var(--text-secondary);
-  font-size: 0.9rem;
-}
 
 .mono-accent {
   font-family: var(--font-display);
@@ -587,7 +581,8 @@ footer {
   }
 }
 
-.cert-img {
+.cert-img,
+.project-img {
   cursor: zoom-in;
 }
 

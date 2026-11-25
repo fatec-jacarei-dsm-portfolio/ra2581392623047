@@ -2,17 +2,16 @@
 
 **Aluno:** Kaique Henrique Silva Pinto
 **Curso:** Desenvolvimento de Software Multiplataforma  
-**Turma:** 4ºSemestre - FEV/2025
+**Turma:** 4ºSemestre
 
 ---
 
 **Portfólio Online**
 
-🔗 [Acesse o Portfólio](https://github.com/fatec-jacarei-dsm-portfolio/ra2581392623047)
+🔗 [Acesse o Portfólio](https://fatec-jacarei-dsm-portfolio.github.io/ra2581392623047/)
 
 ---
 
 **Vídeos de Apresentação**
 
-
- [Vídeo](https://www.youtube.com/watch?v=2u1yus-hgKE)  
+[Vídeo](https://youtu.be/2exC_jPwPMw)

@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const revealOptions = {
         root: null,
-        rootMargin: '0px',
-        threshold: 0.15 
+        rootMargin: '0px 0px -10% 0px',
+        threshold: 0
     };
 
     const revealCallback = (entries, observer) => {
@@ -13,10 +13,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
-    const revealObserver = new IntersectionObserver(revealCallback, revealOptions);
-
     const revealElements = document.querySelectorAll('.reveal');
-    revealElements.forEach(el => revealObserver.observe(el));
+    if ('IntersectionObserver' in window) {
+        const revealObserver = new IntersectionObserver(revealCallback, revealOptions);
+        revealElements.forEach(el => revealObserver.observe(el));
+    } else {
+        revealElements.forEach(el => el.classList.add('active'));
+    }
     const modal = document.getElementById('image-modal');
     const modalImg = document.getElementById('modal-img');
     const closeBtn = document.querySelector('.modal-close');
@@ -66,6 +69,6 @@ document.addEventListener('DOMContentLoaded', () => {
         'background: #00E5FF; color: #000; font-weight: bold; border-radius: 2px;'
     );
     console.log(
-        'Todos os módulos Vanilla carregados sem dependências externas. Pronto para Vercel Edge Network.'
+        'Todos os módulos Vanilla carregados sem dependências externas.'
     );
 });
